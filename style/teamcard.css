@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.ourteam {
+  max-width: 1440px;
+  min-width: 300px;
+  width: 100%;
+  padding: 120px 0px 96px;
+  margin: 0px auto;
+}
+
+.ourteam-header {
+  max-width: 768px;
+  text-align: center;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+.ourteam-header__subtittle {
+  font-family: "Inter", sans-serif;
+  color: #6941c6;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-block: 0px;
+  text-decoration: none;
+}
+
+.ourteam-header__tittle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-block: 12px 20px;
+  color: #101828;
+}
+
+.ourteam-header__des {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #667085;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.ourteam-header-btn {
+  margin-top: 50px;
+}
+
+.ourteam-header-btn__white {
+  background-color: #fff;
+  color: #344054;
+}
+
+.ourteam-header-btn__white, .ourteam-header-btn__primery {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  margin: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px solid rgba(0, 0, 0, 0.172);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ourteam-header-btn__white:hover {
+  background-color: #7f56d9;
+  color: #fff;
+}
+
+.ourteam-header-btn__primery {
+  background-color: #7f56d9;
+  color: #fff;
+}
+
+.ourteam-header-btn__primery:hover {
+  background-color: #fff;
+  color: #344054;
+}
+
+.ourteam .card-cont {
+  max-width: 1280px;
+  width: 100%;
+  margin: 100px auto 0px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  place-items: center;
+  -ms-grid-columns: (minmax(244px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(244px, 1fr));
+}
+
+.ourteam .card-cont-card {
+  padding: 50px;
+  width: 220px;
+  text-align: center;
+}
+
+.ourteam .card-cont-card__img {
+  width: 80px;
+  height: 80px;
+}
+
+.ourteam .card-cont-card__tittle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+  margin: 20px 0px 0px;
+}
+
+.ourteam .card-cont-card__subtittle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #6941c6;
+}
+
+.ourteam .card-cont-card__des {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  margin: 10px 0px 0px;
+}
+
+.ourteam .card-cont-card-iconlist {
+  width: 100%;
+  margin: 20px 0px 0px;
+  padding: 0%;
+}
+
+.ourteam .card-cont-card-iconlist__icon {
+  margin: 0px 10px;
+}
+/*# sourceMappingURL=teamcard.css.map */

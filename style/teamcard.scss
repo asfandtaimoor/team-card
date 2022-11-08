@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$font-family: 'Inter', sans-serif;
+$text-link-col: #6941c6;
+$text-black-col: #101828;
+$text-des-col: #667085;
+$text-white-col: #fff;
+
+$btn-text-dark-col: #344054;
+
+$bg-white: #fff;
+$bg-primery: #7f56d9;
+
+.ourteam {
+  max-width: 1440px;
+  min-width: 300px;
+  width: 100%; 
+  padding: 120px 0px 96px;
+  margin: 0px auto;
+
+  &-header {
+    max-width: 768px;
+    text-align: center;
+    margin: auto;
+    padding: 0px 20px;
+    &__subtittle {
+      font-family: $font-family;
+      color: $text-link-col;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      margin-block: 0px;
+      text-decoration: none;
+    }
+    &__tittle {
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      margin-block: 12px 20px;
+      color: $text-black-col;
+    }
+    &__des {
+      font-family: $font-family;
+      font-style: normal;
+      color: $text-des-col;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &-btn {
+      margin-top: 50px;
+    }
+    &-btn__white {
+      background-color: $bg-white;
+      color: $btn-text-dark-col;
+    }
+    &-btn__white,
+    &-btn__primery {
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-family: $font-family;
+      margin: 5px;
+      transition: all 0.5s;
+      border: 1px solid rgba(0, 0, 0, 0.172);
+      text-decoration: none;
+      display: inline-block;
+    }
+    &-btn__white:hover {
+      background-color: $bg-primery;
+      color: $text-white-col;
+    }
+    &-btn__primery {
+      background-color: $bg-primery;
+      color: $text-white-col;
+    }
+    &-btn__primery:hover {
+      background-color: $bg-white;
+      color: $btn-text-dark-col;
+    }
+  }
+  // team cards
+  .card-cont {
+    max-width: 1280px;
+    width: 100%;
+    margin: 100px auto 0px;
+    display: grid;
+    grid-gap: 1rem;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(244px, 1fr));
+    &-card {
+      padding: 50px; 
+      width: 220px;
+      text-align: center;
+      &__img {
+        width: 80px;
+        height: 80px;
+      }
+      &__tittle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: $text-black-col;
+        margin: 20px 0px 0px;
+      }
+      &__subtittle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        color: $text-link-col;
+      }
+      &__des{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: $text-des-col;
+margin: 10px 0px 0px;
+      }
+      &-iconlist{
+width: 100%;
+margin: 20px 0px 0px;
+padding: 0%;
+&__icon{
+  margin: 0px 10px;
+  
+} 
+      }
+    }
+  }
+}
